@@ -53,3 +53,7 @@ some-project | `/workspace`
 ## C++
 
 See the folder `c++`.
+
+## Python
+
+See the folder `python`.
