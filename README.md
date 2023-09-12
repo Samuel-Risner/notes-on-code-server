@@ -18,7 +18,7 @@ The original Repo and documentation are also quite useful:
 
 # Setting up the container
 
-## Image
+## Images
 
 I use different images for all my projects, by doing that I can also specify all the requirements needed for running them.
 
@@ -28,7 +28,7 @@ The server uses port `8443`.
 
 ## Environment variables
 
-I set `DEFAULT_WORKSPACE` to `/workspace`, otherwise the default workspace would be under the config folder. By doing that I can easily swap out containers with different images.
+I set `DEFAULT_WORKSPACE` to `/workspace`, otherwise the default workspace would be under the config folder.
 
 Other variables that you should set:
 
@@ -37,18 +37,16 @@ Other variables that you should set:
 - `PASSWORD`
 - `SUDO_PASSWORD`
 
-## Volumes
+## Binds
 
-I set up two volumes, the first one contains all the configuration and second one contains all my code.
-By having an extra container for my code I can switch out the different projects that I'm working on.
-But you can do whatever you like sine changing the working directory is really easy.
+You should bind these:
 
-Container name | Mount path
----|---
-config | `/config`
-some-project | `/workspace`
+- `/config`
+- `/workspace`
 
-# Images that I use
+To something on the host.
+
+# Dockerfiles and extensions that I use
 
 ## C++
 
