@@ -25,6 +25,8 @@ Or use a shebang:
 
 ## ms-pyright.pyright
 
+See here for documentation on configuration: https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+
 # Dockerfile
 
 If everything worked the following commands should run:
