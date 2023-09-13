@@ -52,3 +52,10 @@ virtualenv --version
 ```shell
 virtualenv -p="/usr/bin/python3.11" ".venv/venv"
 ```
+
+# How to install `requirements.txt` with pip
+
+```shell
+python3.11 -m pip install -r requirements.txt
+```
+
