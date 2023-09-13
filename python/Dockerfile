@@ -5,4 +5,4 @@ RUN sudo apt install software-properties-common -y
 RUN sudo add-apt-repository 'ppa:deadsnakes/ppa'
 RUN sudo apt install python3.11 -y
 
-RUN sudo apt install virtualenv -y
+RUN sudo apt install python3.11-venv -y
