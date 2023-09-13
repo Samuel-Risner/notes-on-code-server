@@ -43,14 +43,10 @@ python3.11 -m pip -V
 
 Output: `pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.11)` (or newer)
 
-```shell
-virtualenv --version
-```
-
 # How to create a virtual environment
 
 ```shell
-virtualenv -p="/usr/bin/python3.11" ".venv/venv"
+python3.11 -m venv venv
 ```
 
 # How to install `requirements.txt` with pip
